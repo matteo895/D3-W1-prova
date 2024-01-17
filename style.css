@@ -1,42 +1,77 @@
 body {
   text-align: center;
-  height: 100vh;
-  margin: 0;
 }
 
 #logo {
-  text-align: center;
   margin: 2rem;
 }
 
 #logo-text {
-  text-align: center;
   font-size: 1.3rem;
   background-color: rgb(245, 245, 220);
   padding: 0.1rem;
   border-top: 1px solid rgb(238, 189, 105);
+  color: rgba(8, 102, 102, 0.968);
 }
 
 #bloc {
-  text-align: center;
+  width: 650px;
+  margin-inline: auto;
 }
 
-img {
+#bloc img {
   border-radius: 1rem;
+  width: 100%;
+}
+
+#text-one {
+  text-align: start;
 }
 
 #transparent {
   opacity: 0.5;
 }
 
+#fresh {
+  text-align: start;
+  border-left: 1px solid rgb(238, 189, 105);
+  padding-left: 1rem;
+}
+
 #featured {
   color: rgb(219, 56, 56);
+  text-align: start;
+  margin-bottom: 0;
 }
 
 #list {
-  display: inline-block;
+  margin: 0%;
+  text-align: start;
+}
+
+#ingredients {
+  border-bottom: 1px solid skyblue;
+  padding: 1rem 0;
+}
+
+#list-title {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  color: rgba(18, 18, 18, 0.911);
+  border-bottom: 1px solid skyblue;
+  padding: 1rem 0;
+}
+
+#pallino {
+  list-style-type: none;
 }
 
 #final {
-  text-align: center;
+  width: 650px;
+  margin: auto;
+  text-align: start;
+}
+
+.color {
+  color: rgb(16, 135, 135);
 }
