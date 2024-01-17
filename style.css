@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#logo {
+  text-align: center;
+  margin: 2rem;
+}
+
+#logo-text {
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: rgb(245, 245, 220);
+  padding: 0.1rem;
+  border-top: 1px solid rgb(238, 189, 105);
+}
+
+#bloc {
+  text-align: center;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+#transparent {
+  opacity: 0.5;
+}
+
+#featured {
+  color: rgb(219, 56, 56);
+}
+
+#list {
+  display: inline-block;
+}
+
+#final {
+  text-align: center;
+}
